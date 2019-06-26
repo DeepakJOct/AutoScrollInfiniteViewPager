@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/red</item>
+        <item name="colorControlNormal">@color/red</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+    </style>
+
+    <!--navigation drawer styles chage-->
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/grey</item>
+        <!--  <item name="drawableSize">@dimen/d5</item>
+          <item name="android:spacing">-55dp</item>
+          <item name="barLength">@dimen/d50</item>-->
+        <item name="spinBars">true</item>
+        <!-- <item name="gapBetweenBars">@dimen/d5</item>
+         <item name="barLength">@dimen/d30</item>-->
+
+    </style>
+
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/grey</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">@color/red</item>
+        <!--for status bar color changing-->
+        <!--need to write android:fitsSystemWindows="true" in xml parent to display below status bar-->
+        <!--<item name="android:statusBarColor">@color/red</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:contentInsetStartWithNavigation">0dp</item>-->
+    </style>
+
+    <!--<style name="AppTheme.RoundedCornerMaterialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_red_shape</item>
+    </style>-->
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/s14</item>
+    </style>
+
+    <!-- EditText Label color -->
+
+    <!--<style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/s16
+        </item>
+        <item name="android:textColorHint">@color/red</item>
+    </style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--to change color of back arrow-->
+        <item name="colorControlNormal">@color/grey</item>
+    </style>
+
+
+    <!--<style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">true</item>
+    </style>-->
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/red</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
